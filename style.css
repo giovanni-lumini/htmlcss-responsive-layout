@@ -1,6 +1,11 @@
 :root{
     --main-color: #ff9614;
     --bg-main: #f6f5f3;
+    --bg-social-fb:#1f7bf3;
+    --bg-social-twitter:#009eff;
+    --bg-social-instagram:#e7a8c3;
+    --bg-social-pinterest:#e73e4d;
+    --bg-social-youtube:#e62222;
 }
 
 /* #region commom */
@@ -21,8 +26,22 @@
     justify-content: center;
 }
 
+.row-space-around{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .col-12{
     width: 100%;
+}
+
+.col-2{
+    width: calc((100%/12)*2);
+}
+
+.pad-y{
+    padding: 1rem 0rem;
 }
 /* #endregion common */
 
@@ -42,7 +61,7 @@ header{
     font-style: normal;
     color: var(--main-color);
     font-size: 2rem;
-    text-shadow: 2px 2px 3px #333;
+    text-shadow: 2px 2px 3px #818181;
 }
   
 /* #endregion header */
@@ -77,6 +96,37 @@ main{
 /* #endregion tiramisù */
 
 /* #region socials */
+.fa-brands{
+    font-size: 0.8rem;
+    background-color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+    box-shadow: 0px 3px 5px #818181;
+}
+
+.socials-align{
+    text-align: center;
+}
+
+.fa-facebook{
+    color: var(--bg-social-fb);
+}
+.fa-twitter{
+    color: var(--bg-social-twitter);
+}
+.fa-instagram{
+    color: var(--bg-social-instagram);
+}
+.fa-pinterest{
+    color: var(--bg-social-pinterest);
+}
+.fa-youtube{
+    color: var(--bg-social-youtube);
+}
+
+/* .socials{
+    text-shadow: 2px 2px 3px #333;
+} */
 /* #endregion socials */
 
 /* #region cooking classes */
