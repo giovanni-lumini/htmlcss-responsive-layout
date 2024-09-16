@@ -125,8 +125,9 @@ header{
 .fa-brands{
     font-size: 0.8rem;
     background-color: white;
-    padding: 0.5rem 0.7rem;
-    border-radius: 50%;
+    width: 2rem;
+    padding: 0.5rem;
+    border-radius: 20px;
     box-shadow: 0px 3px 5px #818181;
 }
 
@@ -149,10 +150,6 @@ header{
 .fa-youtube{
     color: var(--bg-social-youtube);
 }
-
-/* .socials{
-    text-shadow: 2px 2px 3px #333;
-} */
 /* #endregion socials */
 
 /* #region cooking classes */
@@ -221,8 +218,14 @@ footer{
 /* #endregion tiramisù */
 /* #region socials */
 @media screen and (min-width: 768px) {
-
-    
+    .fa-brands{
+        font-size: 0.8rem;
+        background-color: white;
+        /* padding: 0.5rem 2rem; */
+        width: 7rem;
+        border-radius: 20px;
+        box-shadow: 0px 3px 5px #818181;
+    }  
 }
 /* #endregion socials */
 /* #region cooking classes */
