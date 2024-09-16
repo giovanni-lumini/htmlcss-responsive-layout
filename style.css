@@ -12,6 +12,17 @@
 
 .container-large{
     width: 90%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-12{
+    width: 100%;
 }
 /* #endregion common */
 
@@ -39,10 +50,30 @@ header{
 /* #region main */
 main{
     background: var(--bg-main);
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
 }
 
 /* #region tiramisù */
+.tiramisù{
+    padding-top: 1rem;
+}
 
+.tiramisù-title{
+    padding-bottom: 1rem;
+}
+
+.sweet-dessert{
+    color: grey;
+}
+
+.info{
+    background-color: white;
+    padding: 1rem;
+    font-size: 0.7rem;
+}
 /* #endregion tiramisù */
 
 /* #region socials */
