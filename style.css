@@ -1,8 +1,17 @@
+:root{
+    --main-color: #ff9614;
+    --bg-main: #f6f5f3;
+}
+
 /* #region commom */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container-large{
+    width: 90%;
 }
 /* #endregion common */
 
@@ -10,17 +19,30 @@
 /* #endregion debug */
 
 /* #region header */
+header{
+    background-color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
 .nerko-one-regular {
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
+    color: var(--main-color);
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px #333;
 }
   
 /* #endregion header */
 
 /* #region main */
+main{
+    background: var(--bg-main);
+}
 
 /* #region tiramisù */
+
 /* #endregion tiramisù */
 
 /* #region socials */
