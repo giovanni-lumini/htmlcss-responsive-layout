@@ -6,6 +6,7 @@
     --bg-social-instagram:#e7a8c3;
     --bg-social-pinterest:#e73e4d;
     --bg-social-youtube:#e62222;
+    --bg-footer: #7c69a4;
 }
 
 /* #region commom */
@@ -13,6 +14,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: var(--bg-main);
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
 }
 
 .container-large{
@@ -36,7 +45,7 @@
     width: 100%;
 }
 
-.text-aligne{
+.text-aligne-center{
     text-align: center;
 }
 
@@ -44,8 +53,20 @@
     width: calc((100%/12)*2);
 }
 
+.col-3{
+    width: calc((100%/12)*3);
+}
+
 .pad-y{
     padding: 1rem 0rem;
+}
+
+.pad-top05{
+    padding-top: 0.5rem;
+}
+
+.f-size06{
+    font-size: 0.6rem;
 }
 
 /* #endregion common */
@@ -72,14 +93,6 @@ header{
 /* #endregion header */
 
 /* #region main */
-main{
-    background: var(--bg-main);
-    font-family: "Montserrat", sans-serif;
-    /* font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal; */
-}
-
 /* #region tiramisù */
 .tiramisù{
     padding-top: 1rem;
@@ -157,6 +170,15 @@ main{
 /* #endregion main */
 
 /* #region footer */
+footer{
+    background: var(--bg-footer);
+    padding: 1rem 1rem;
+    color: white;
+
+    a{
+        color: white;
+    }
+}
 /* #endregion footer */
 
 
