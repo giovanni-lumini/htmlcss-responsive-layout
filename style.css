@@ -190,6 +190,7 @@ footer{
 
 
 /* #region tablet +768px */
+
 /* #region header */
 @media screen and (min-width: 768px) {
     header{
@@ -203,6 +204,11 @@ footer{
 /* #region main */
 /* #region tiramisù */
 @media screen and (min-width: 768px) {
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
+    
     .display-none{
         display: inline-block;
     }
@@ -210,14 +216,26 @@ footer{
         display: inline-block;
     }
 
-    .col-3-tablet{
-        width: calc((100%/12)*3);
+    .col-4-tablet{
+        width: calc((100%/12)*4);
+    }
+
+    .row-jc-start{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
     }
     
 }
 /* #endregion tiramisù */
 /* #region socials */
 @media screen and (min-width: 768px) {
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
+    
     .fa-brands{
         font-size: 0.8rem;
         background-color: white;
@@ -230,6 +248,11 @@ footer{
 /* #endregion socials */
 /* #region cooking classes */
 @media screen and (min-width: 768px) {
+    
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
     .display-none{
         display: block;
     }
@@ -238,18 +261,30 @@ footer{
 /* #endregion cooking classes */
 /* #region presentation */
 @media screen and (min-width: 768px) {
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
+
     .float{
         width: 40%;
         float: left;
         padding-right: 1rem;
     }
-
-
 }
 /* #endregion presentation */
 /* #endregion main */
+
 /* #region footer */
 @media screen and (min-width: 768px) {
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .col-2-tablet{
+        width: calc((100%/12)*2);
+    }
     
 }
 /* #endregion footer */
