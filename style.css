@@ -36,6 +36,10 @@
     width: 100%;
 }
 
+.text-aligne{
+    text-align: center;
+}
+
 .col-2{
     width: calc((100%/12)*2);
 }
@@ -43,6 +47,7 @@
 .pad-y{
     padding: 1rem 0rem;
 }
+
 /* #endregion common */
 
 /* #region debug */
@@ -133,6 +138,20 @@ main{
 /* #endregion cooking classes */
 
 /* #region presentation */
+.presentation{
+    font-size: 1.3rem;
+}
+
+.bord-bott{
+    height: 0.5rem;
+    width: 4rem;
+    border-bottom: solid 2px var(--main-color);
+}
+
+.p-presentation{
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
 /* #endregion presentation */
 
 /* #endregion main */
