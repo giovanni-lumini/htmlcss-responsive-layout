@@ -119,6 +119,10 @@ header{
     padding: 1rem;
     font-size: 0.7rem;
 }
+
+.display-none-tir{
+    display: none;
+}
 /* #endregion tiramisù */
 
 /* #region socials */
@@ -171,7 +175,6 @@ header{
     margin-bottom: 3rem;
 }
 /* #endregion presentation */
-
 /* #endregion main */
 
 /* #region footer */
@@ -188,9 +191,7 @@ footer{
 
 
 
-
 /* #region tablet +768px */
-
 /* #region header */
 @media screen and (min-width: 768px) {
     header{
@@ -209,11 +210,8 @@ footer{
         margin: auto;
     }
     
-    .display-none{
-        display: inline-block;
-    }
-    .inline-block{
-        display: inline-block;
+    .inline{
+        display: inline;
     }
 
     .col-4-tablet{
@@ -226,7 +224,6 @@ footer{
         justify-content: flex-start;
 
     }
-    
 }
 /* #endregion tiramisù */
 /* #region socials */
@@ -290,5 +287,107 @@ footer{
 /* #endregion footer */
 /* #endregion tablet +768px */
 
+
+
 /* #region desktop +992px */
+/* #region header */
+@media screen and (min-width: 992px) {
+    header{
+        background-color: white;
+        padding: 1rem 1rem;
+        text-align: start;
+    }
+}
+/* #endregion header */
+
+/* #region main */
+/* #region tiramisù */
+@media screen and (min-width: 992px) {
+    .container-large-tablet{
+        width: 70%;
+        margin: auto;
+    }
+
+    .col-9-desktop{
+        width: calc((100%/12)*9);
+    }
+
+    .col-3-desktop{
+        width: calc((100%/12)*3);
+    }
+
+    .row-jc-start{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+    }
+
+    .col-12-desktop{
+        width: 100%;
+    }   
+}
+/* #endregion tiramisù */
+/* #region socials */
+@media screen and (min-width: 992px) {
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .fa-brands{
+        font-size: 0.8rem;
+        background-color: white;
+        /* padding: 0.5rem 2rem; */
+        width: 7rem;
+        border-radius: 20px;
+        box-shadow: 0px 3px 5px #818181;
+    }  
+}
+/* #endregion socials */
+/* #region cooking classes */
+@media screen and (min-width: 992px) {
+    
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
+    .display-none{
+        display: block;
+    }
+    
+}
+/* #endregion cooking classes */
+/* #region presentation */
+@media screen and (min-width: 992px) {
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
+
+    .float{
+        width: 40%;
+        float: left;
+        padding-right: 1rem;
+    }
+}
+/* #endregion presentation */
+/* #endregion main */
+
+/* #region footer */
+@media screen and (min-width: 992px) {
+    .container-large-tablet{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .col-2-tablet{
+        width: calc((100%/12)*2);
+    }
+    
+}
+/* #endregion footer */
+
+
 /* #endregion desktop +992px */
