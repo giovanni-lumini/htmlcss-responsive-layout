@@ -73,6 +73,10 @@ body{
     font-size: 0.6rem;
 }
 
+.display-none{
+    display: none;
+}
+
 /* #endregion common */
 
 /* #region debug */
@@ -114,10 +118,6 @@ header{
     background-color: white;
     padding: 1rem;
     font-size: 0.7rem;
-}
-
-.display-none{
-    display: none;
 }
 /* #endregion tiramisù */
 
@@ -230,6 +230,9 @@ footer{
 /* #endregion socials */
 /* #region cooking classes */
 @media screen and (min-width: 768px) {
+    .display-none{
+        display: block;
+    }
     
 }
 /* #endregion cooking classes */
