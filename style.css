@@ -368,27 +368,36 @@ footer{
         width: 70%;
         margin: auto;
     }
-
-    .float{
-        width: 40%;
-        float: left;
-        padding-right: 1rem;
-    }
 }
 /* #endregion presentation */
 /* #endregion main */
 
 /* #region footer */
 @media screen and (min-width: 992px) {
-    .container-large-desktop{
-        width: 70%;
+    .container-desktop-100{
+        width: 100%;
         margin: auto;
     }
-    
-    .col-2-tablet{
-        width: calc((100%/12)*2);
+
+    .row-foot-desktop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     
+    .col-6-desktop{
+        width: 50%;
+    }
+
+    .text-align-start-desktop{
+        text-align: start;
+    }
+    
+    .row-nav-dx-foot-desktop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
 }
 /* #endregion footer */
 
