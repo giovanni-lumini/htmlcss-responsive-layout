@@ -238,7 +238,13 @@ footer{
 /* #endregion cooking classes */
 /* #region presentation */
 @media screen and (min-width: 768px) {
-    
+    .float{
+        width: 40%;
+        float: left;
+        padding-right: 1rem;
+    }
+
+
 }
 /* #endregion presentation */
 /* #endregion main */
