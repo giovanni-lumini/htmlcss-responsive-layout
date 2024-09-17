@@ -49,6 +49,10 @@ body{
     text-align: center;
 }
 
+.text-aligne-end{
+    text-align: end;
+}
+
 .col-2{
     width: calc((100%/12)*2);
 }
@@ -75,6 +79,10 @@ body{
 
 .display-none{
     display: none;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 /* #endregion common */
@@ -397,6 +405,10 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: end;
+    }
+
+    .text-aligne-end{
+        text-align: end;
     }
 }
 /* #endregion footer */
